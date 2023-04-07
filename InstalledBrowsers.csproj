@@ -12,6 +12,7 @@
 		<Description>Library that can get a list of installed browsers on Windows and open URLs using a specific browser.</Description>
 		<PackageId>ChrisKaczor.InstalledBrowsers</PackageId>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<AssemblyName>ChrisKaczor.InstalledBrowsers</AssemblyName>
 	</PropertyGroup>
 	<ItemGroup>
 		<None Update="README.md">
