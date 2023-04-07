@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<RootNamespace>ChrisKaczor.InstalledBrowsers</RootNamespace>
+		<Title>ChrisKaczor.InstalledBrowsers</Title>
+		<Authors>Chris Kaczor</Authors>
+		<Product>ChrisKaczor.InstalledBrowsers</Product>
+		<RepositoryUrl>https://github.com/ckaczor/ChrisKaczor.InstalledBrowsers</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Description>Library that can get a list of installed browsers on Windows and open URLs using a specific browser.</Description>
+		<PackageId>ChrisKaczor.InstalledBrowsers</PackageId>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+</Project>
