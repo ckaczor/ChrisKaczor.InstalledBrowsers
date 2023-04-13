@@ -33,6 +33,8 @@ namespace ChrisKaczor.InstalledBrowsers
                 Process.Start(Command, url);
         }
 
+        public static List<InstalledBrowser> InstalledBrowsers => GetInstalledBrowsers(true).Values.ToList();
+
         public static Dictionary<string, InstalledBrowser> GetInstalledBrowsers(bool includeSystemDefault)
         {
             var browsers = new Dictionary<string, InstalledBrowser>();
